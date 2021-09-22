@@ -31,10 +31,11 @@ let seedBook = () => {
     newBook1.save();
     newBook2.save();
     newBook3.save();
-}
+};
 
 
 module.exports = {
     bookSchema,
-    bookModel
+    bookModel,
+    seedBook
 };
